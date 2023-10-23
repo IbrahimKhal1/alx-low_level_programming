@@ -1,21 +1,18 @@
-#include <stdlib.h>
-#include <ctype.h>
+#include <stdio.h>
 
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0
  */
 
 int main(void)
 {
-	int lowerCase = 'a';
-	while (lowerCase <= 'z')
-	{
-	putchar(lowerCase);
-	lowerCase += 1;
+	char c = 'a';
+	while(c <= 'z'){
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
-
 	return (0);
 }	
