@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This Module that calculates the perimeter of an island in a grid."""
+"""Module that calculates the perimeter of an island in a grid."""
 
 
 def num_water_neighbors(grid, i, j):
